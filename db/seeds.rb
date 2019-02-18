@@ -20,3 +20,4 @@ Ingredient.create(name: "coco juice")
 Ingredient.create(name: "strawberry juice")
 Ingredient.create(name: "beetle juice")
 
+Cocktail.create(name: "El Diablo")
