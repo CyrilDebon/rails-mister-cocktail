@@ -17,6 +17,7 @@ class CocktailsController < ApplicationController
     end
   end
 
+
   def new
     @cocktail = Cocktail.new
   end
@@ -24,7 +25,7 @@ class CocktailsController < ApplicationController
   private
 
   def cocktails_params
-    params.require(:cocktail).permit(:name, :cocktail_id, :ingredient_id)
+    params.require(:cocktail).permit(:name, :cocktail_id, :ingredient_id, :photo)
   end
 end
 
